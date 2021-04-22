@@ -1,0 +1,14 @@
+body{
+background: linear-gradient(90deg, #17d4ca, #15debf, #39e7ae, #5fef98, #85f57f, #acfa62, #d4fc43, #fffb1c);
+color: white;
+font-family: sans-serif;
+
+}
+
+a{
+  color:navy;
+}
+
+p{
+  color: darkgreen;
+}
