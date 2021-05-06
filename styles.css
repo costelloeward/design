@@ -2,16 +2,67 @@ body{
 background: linear-gradient(90deg, #17d4ca, #15debf, #39e7ae, #5fef98, #85f57f, #acfa62, #d4fc43, #fffb1c);
 color: white;
 font-family: sans-serif;
+margin: 0;
+}
 
+
+
+/* navbar styling */
+nav {
+  font-size: 3rem;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav-item {
+  float: right;
+}
+
+.nav-link {
+  display: block;
+  color: #184d47;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+}
+
+.nav-link:hover:not(.active) {
+  background-color: #85f57f;
+}
+
+.active {
+  background-color: #fffb1c;
+}
+
+.costelloeward{
+  float: left;
+}
+section{
+  margin-left: 3rem;
 }
 
 a{
-  color:navy;
+  color:#184d47;
 }
 
 p{
   color: darkgreen;
 }
-ul{
-  color: darkgreen;
+
+ul {
+    color: darkgreen;
+  }
+/* Address has separate default style, italics need to be removed */
+address{
+  font-style: normal;
+  margin-left: 3rem;
+}
+footer{
+text-align: center;
 }
