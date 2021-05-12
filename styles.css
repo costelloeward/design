@@ -7,42 +7,7 @@ margin: 0;
 
 
 
-/* navbar styling */
-nav {
-  font-size: 3rem;
-}
 
-.nav-menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-}
-
-.nav-item {
-  float: right;
-}
-
-.nav-link {
-  display: block;
-  color: #184d47;
-  text-align: center;
-  padding: 0.8rem 1rem;
-  text-decoration: none;
-}
-
-.nav-link:hover:not(.active) {
-  background-color: #85f57f;
-}
-
-.active {
-  background-color: #fffb1c;
-}
-
-.costelloeward{
-  float: left;
-}
 section{
   margin-left: 3rem;
 }
@@ -64,5 +29,47 @@ address{
   margin-left: 3rem;
 }
 footer{
+  margin-top: 5rem;
 text-align: center;
+}
+/* nav styling for smaller screen sizes */
+
+  nav{
+    font-size: 2rem;
+  }
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .nav-link {
+    display: block;
+    color: #184d47;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+  }
+
+  .nav-link:hover:not(.active) {
+    background-color: #85f57f;
+  }
+
+  .active {
+    background-color: #fffb1c;
+  }
+
+/* navbar styling for larger sizes */
+@media(min-width:40rem){
+  nav {
+    font-size: 3rem;
+  }
+  .nav-item {
+    float: right;
+  }
+  .costelloeward{
+    float: left;
+  }
 }
