@@ -60,11 +60,11 @@ text-align: center;
   }
 
   .nav-link:hover:not(.active) {
-    background-color: #85f57f;
+    background-color:#fffb1c;
   }
 
   .active {
-    background-color: #fffb1c;
+    background-color:#85f57f;
   }
 
 /* navbar styling for larger sizes */
