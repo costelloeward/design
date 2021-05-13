@@ -3,13 +3,14 @@ background: linear-gradient(90deg, #17d4ca, #15debf, #39e7ae, #5fef98, #85f57f, 
 color: white;
 font-family: sans-serif;
 margin: 0;
+text-align: center;
 }
 
 
 
 
 section{
-  margin-left: 3rem;
+  margin: 2rem;
 }
 
 a{
@@ -26,7 +27,12 @@ ul {
 /* Address has separate default style, italics need to be removed */
 address{
   font-style: normal;
-  margin-left: 3rem;
+
+}
+/* Get in touch icons */
+.icon{
+  color: white;
+  margin:0.5rem;
 }
 footer{
   margin-top: 5rem;
