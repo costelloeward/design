@@ -27,7 +27,7 @@ ul {
 /* Address has separate default style, italics need to be removed */
 address{
   font-style: normal;
-
+margin-top: 5rem;
 }
 /* Get in touch icons */
 .icon{
@@ -67,7 +67,7 @@ text-align: center;
     background-color:#85f57f;
   }
 
-/* navbar styling for larger sizes */
+/* navbar styling and text alignment for larger sizes */
 @media(min-width:40rem){
   nav {
     font-size: 3rem;
@@ -78,4 +78,15 @@ text-align: center;
   .costelloeward{
     float: left;
   }
+  p{
+    width: 45rem;
+    margin:0 auto;
+    text-align: left;
+  }
+  section{
+    width: 45rem;
+    margin:0 auto;
+    text-align: left;
+  }
+
 }
