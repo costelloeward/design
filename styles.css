@@ -55,11 +55,14 @@ text-align: center;
     display: block;
     color: #184d47;
     text-align: center;
-    padding: 0.8rem 1rem;
+    padding: 1rem 2rem;
     text-decoration: none;
   }
 
   .nav-link:hover:not(.active) {
+    background-color:#fffb1c;
+  }
+  .nav-link:focus{
     background-color:#fffb1c;
   }
 
@@ -72,12 +75,11 @@ text-align: center;
   nav {
     font-size: 3rem;
   }
-  .nav-item {
-    float: right;
+
+  .nav-menu{
+    display: flex;
   }
-  .costelloeward{
-    float: left;
-  }
+
   p{
     width: 45rem;
     margin:0 auto;
@@ -85,7 +87,7 @@ text-align: center;
   }
   section{
     width: 45rem;
-    margin:0 auto;
+    margin:3rem auto;
     text-align: left;
   }
 
