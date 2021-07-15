@@ -72,7 +72,7 @@ text-align: center;
   }
 
 /* navbar styling and text alignment for larger sizes */
-@media(min-width:40rem){
+@media(min-width:65rem){
   nav {
     font-size: 3rem;
   }
