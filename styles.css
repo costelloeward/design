@@ -1,5 +1,5 @@
 body{
-background: linear-gradient(90deg, #17d4ca, #15debf, #39e7ae, #5fef98, #85f57f, #acfa62, #d4fc43, #fffb1c);
+background: linear-gradient(90deg, #1f005c, #002a7d, #004995, #0066a7, #0082b3, #009ebc, #4cbac4, #83d4ce);
 color: white;
 font-family: sans-serif;
 margin: 0;
@@ -13,18 +13,14 @@ h1{
   margin-top: 3rem;
 }
 a{
-  color:black;
+  color:darkblue;
 }
 
 p{
-  color: darkgreen;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
-ul {
-    color: darkgreen;
-  }
 /* Address has separate default style, italics need to be removed */
 address{
   font-style: normal;
@@ -54,7 +50,7 @@ text-align: center;
 
   .nav-link {
     display: block;
-    color: #184d47;
+    color: #1f005c;
     text-align: center;
     padding: 1rem 2rem;
     text-decoration: none;
@@ -68,7 +64,7 @@ text-align: center;
   }
 
   .active {
-    background-color:#85f57f;
+    background-color:#4cbac4;
   }
 
 /* navbar styling and text alignment for larger sizes */
